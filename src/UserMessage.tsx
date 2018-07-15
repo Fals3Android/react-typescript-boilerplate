@@ -4,6 +4,4 @@ import * as React from 'react';
 type UserMessageProps = { message: string };
 
 // A simple example of a stateless component using typescript to manage Prop Typing
-const UserMessage: React.SFC<UserMessageProps> = ({ message }) => <div>{message}</div>;
-
-export default UserMessage;
+export const UserMessage: React.SFC<UserMessageProps> = ({ message }) => <div>{message}</div>;

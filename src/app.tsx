@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-console.log('test');
+import UserMessage from './UserMessage';
+
 ReactDOM.render(
-    <div>React Typescript Boilerplate</div>,
+    <UserMessage message="A simple example of a stateless component using typescript." />,
     document.getElementById('root')
 );
